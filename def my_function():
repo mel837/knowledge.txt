@@ -1,8 +1,9 @@
 def my_function():
+    global y
     y = 5 # this is a local variable
     print(y)
 
 my_function() # output: 5
-print(y) # Error! y only exists inside my_function
+print(y) # Error! y only exists inside my_function                                         
 
 
